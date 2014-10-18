@@ -1,0 +1,28 @@
+---
+abstract: 'Bindings for the HipChat API v2'
+author:
+  - 'Anwesh<kanishka@cpan.com>'
+build_requires:
+  File::Spec: 0
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
+  perl: 5.006
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.013, CPAN::Meta::Converter version 2.131560'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WebService-HipChat
+requires:
+  Carp: 0
+  Getopt::Long: 0
+  Moo: 1.005000
+  Pod::Usage: 0
+  WebService::Client 0
+  strict: 0
+  warnings: 0
+version: 0.0201
